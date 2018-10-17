@@ -13,6 +13,7 @@
 */.mvn/*
 .md
 *.jar
-*/mvnw
+mvnw
 */.cmd
 *.cmd
+.mvn
