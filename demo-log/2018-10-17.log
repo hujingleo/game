@@ -1,0 +1,97 @@
+23:55:13 - INFO  io.renren.GameApplication - Starting GameApplication on BF-201808191120 with PID 17844 (D:\game\target\classes started by Administrator in D:\game)
+23:55:13 - INFO  io.renren.GameApplication - The following profiles are active: dev
+23:55:13 - INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2e222612: startup date [Wed Oct 17 23:55:13 CST 2018]; root of context hierarchy
+23:55:13 - INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b3c5fca] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:55:13 - INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+23:55:13 - INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+23:55:13 - INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.11
+23:55:13 - INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:55:13 - INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 844 ms
+23:55:14 - INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+23:55:14 - INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+23:55:14 - INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+23:55:14 - INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+23:55:14 - INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+23:55:14 - INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+23:55:14 - INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+23:55:14 - INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23:55:15 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2e222612: startup date [Wed Oct 17 23:55:13 CST 2018]; root of context hierarchy
+23:55:15 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/generator/pet/update]}" onto public io.renren.common.utils.R io.renren.modules.generator.controller.PetController.update(io.renren.modules.generator.entity.PetEntity)
+23:55:15 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/generator/pet/delete]}" onto public io.renren.common.utils.R io.renren.modules.generator.controller.PetController.delete(java.lang.Integer[])
+23:55:15 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/generator/pet/save]}" onto public io.renren.common.utils.R io.renren.modules.generator.controller.PetController.save(io.renren.modules.generator.entity.PetEntity)
+23:55:15 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/generator/pet/info/{id}]}" onto public io.renren.common.utils.R io.renren.modules.generator.controller.PetController.info(java.lang.Integer)
+23:55:15 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/generator/setting/update]}" onto public io.renren.common.utils.R io.renren.modules.generator.controller.SettingController.update(io.renren.modules.generator.entity.SettingEntity)
+23:55:15 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/generator/setting/delete]}" onto public io.renren.common.utils.R io.renren.modules.generator.controller.SettingController.delete(java.lang.Integer[])
+23:55:15 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/generator/setting/save]}" onto public io.renren.common.utils.R io.renren.modules.generator.controller.SettingController.save(io.renren.modules.generator.entity.SettingEntity)
+23:55:15 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/generator/setting/info/{id}]}" onto public io.renren.common.utils.R io.renren.modules.generator.controller.SettingController.info(java.lang.Integer)
+23:55:15 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/generator/user/update]}" onto public io.renren.common.utils.R io.renren.modules.generator.controller.UserController.update(io.renren.modules.generator.entity.UserEntity)
+23:55:15 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/generator/user/delete]}" onto public io.renren.common.utils.R io.renren.modules.generator.controller.UserController.delete(java.lang.Long[])
+23:55:15 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/generator/user/save]}" onto public io.renren.common.utils.R io.renren.modules.generator.controller.UserController.save(io.renren.modules.generator.entity.UserEntity)
+23:55:15 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/generator/user/info/{userId}]}" onto public io.renren.common.utils.R io.renren.modules.generator.controller.UserController.info(java.lang.Long)
+23:55:15 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/generator/userpet/update]}" onto public io.renren.common.utils.R io.renren.modules.generator.controller.UserPetController.update(io.renren.modules.generator.entity.UserPetEntity)
+23:55:15 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/generator/userpet/delete]}" onto public io.renren.common.utils.R io.renren.modules.generator.controller.UserPetController.delete(java.lang.Integer[])
+23:55:15 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/generator/userpet/save]}" onto public io.renren.common.utils.R io.renren.modules.generator.controller.UserPetController.save(io.renren.modules.generator.entity.UserPetEntity)
+23:55:15 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/generator/userpet/info/{id}]}" onto public io.renren.common.utils.R io.renren.modules.generator.controller.UserPetController.info(java.lang.Integer)
+23:55:15 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+23:55:15 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+23:55:15 - INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:55:15 - INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:55:15 - INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:55:15 - INFO  o.s.u.f.SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2e222612: startup date [Wed Oct 17 23:55:13 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+23:55:15 - INFO  o.s.w.s.v.f.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+23:55:15 - INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+23:55:15 - INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+23:55:15 - INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+23:55:15 - INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+23:55:15 - INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+23:55:15 - INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+23:55:15 - INFO  io.renren.GameApplication - Started GameApplication in 2.663 seconds (JVM running for 3.139)
+23:59:19 - INFO  io.renren.GameApplication - Starting GameApplication on BF-201808191120 with PID 17880 (D:\game\target\classes started by Administrator in D:\game)
+23:59:19 - INFO  io.renren.GameApplication - The following profiles are active: dev
+23:59:19 - INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45d6ef73: startup date [Wed Oct 17 23:59:19 CST 2018]; root of context hierarchy
+23:59:20 - INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4a1303e3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:59:21 - INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+23:59:21 - INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+23:59:21 - INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.11
+23:59:21 - INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:59:21 - INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1605 ms
+23:59:21 - INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+23:59:21 - INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+23:59:21 - INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+23:59:21 - INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+23:59:21 - INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+23:59:21 - INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+23:59:21 - INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+23:59:22 - INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23:59:23 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45d6ef73: startup date [Wed Oct 17 23:59:19 CST 2018]; root of context hierarchy
+23:59:23 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/generator/pet/update]}" onto public io.renren.common.utils.R io.renren.modules.generator.controller.PetController.update(io.renren.modules.generator.entity.PetEntity)
+23:59:23 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/generator/pet/delete]}" onto public io.renren.common.utils.R io.renren.modules.generator.controller.PetController.delete(java.lang.Integer[])
+23:59:23 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/generator/pet/list]}" onto public io.renren.modules.generator.utils.BaseResp io.renren.modules.generator.controller.PetController.list(javax.servlet.http.HttpServletRequest)
+23:59:23 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/generator/pet/save]}" onto public io.renren.common.utils.R io.renren.modules.generator.controller.PetController.save(io.renren.modules.generator.entity.PetEntity)
+23:59:23 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/generator/pet/info/{id}]}" onto public io.renren.common.utils.R io.renren.modules.generator.controller.PetController.info(java.lang.Integer)
+23:59:23 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/generator/setting/update]}" onto public io.renren.common.utils.R io.renren.modules.generator.controller.SettingController.update(io.renren.modules.generator.entity.SettingEntity)
+23:59:23 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/generator/setting/delete]}" onto public io.renren.common.utils.R io.renren.modules.generator.controller.SettingController.delete(java.lang.Integer[])
+23:59:23 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/generator/setting/save]}" onto public io.renren.common.utils.R io.renren.modules.generator.controller.SettingController.save(io.renren.modules.generator.entity.SettingEntity)
+23:59:23 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/generator/setting/info/{id}]}" onto public io.renren.common.utils.R io.renren.modules.generator.controller.SettingController.info(java.lang.Integer)
+23:59:23 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/generator/user/update]}" onto public io.renren.common.utils.R io.renren.modules.generator.controller.UserController.update(io.renren.modules.generator.entity.UserEntity)
+23:59:23 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/generator/user/delete]}" onto public io.renren.common.utils.R io.renren.modules.generator.controller.UserController.delete(java.lang.Long[])
+23:59:23 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/generator/user/save]}" onto public io.renren.common.utils.R io.renren.modules.generator.controller.UserController.save(io.renren.modules.generator.entity.UserEntity)
+23:59:23 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/generator/user/info/{userId}]}" onto public io.renren.common.utils.R io.renren.modules.generator.controller.UserController.info(java.lang.Long)
+23:59:23 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/generator/userpet/update]}" onto public io.renren.common.utils.R io.renren.modules.generator.controller.UserPetController.update(io.renren.modules.generator.entity.UserPetEntity)
+23:59:23 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/generator/userpet/delete]}" onto public io.renren.common.utils.R io.renren.modules.generator.controller.UserPetController.delete(java.lang.Integer[])
+23:59:23 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/generator/userpet/save]}" onto public io.renren.common.utils.R io.renren.modules.generator.controller.UserPetController.save(io.renren.modules.generator.entity.UserPetEntity)
+23:59:23 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/generator/userpet/info/{id}]}" onto public io.renren.common.utils.R io.renren.modules.generator.controller.UserPetController.info(java.lang.Integer)
+23:59:23 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+23:59:23 - INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+23:59:23 - INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:59:23 - INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:59:23 - INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:59:23 - INFO  o.s.u.f.SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45d6ef73: startup date [Wed Oct 17 23:59:19 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+23:59:23 - INFO  o.s.w.s.v.f.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+23:59:23 - INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+23:59:23 - INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+23:59:23 - INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+23:59:23 - INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+23:59:23 - INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+23:59:23 - INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+23:59:23 - INFO  io.renren.GameApplication - Started GameApplication in 4.857 seconds (JVM running for 7.622)
